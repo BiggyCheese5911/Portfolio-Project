@@ -76,13 +76,39 @@ footer p{
     font-size: 1.25em;
 }
 
-.img-content{
-    width: 100%;
+#projects{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 img{
-    height: 600px;
-    width: 550px;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+
+.containers{
+    max-height: 500px;
+    max-width: 500px;
+    height: 350px;
+    width: 350px;
+    background-color: black;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    margin: 50px;
+    border-radius: 15px;
+}
+
+.containers a{
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 10px;
+    color: lightseagreen;
+}
+
+.container a:hover{
+    color: purple;
 }

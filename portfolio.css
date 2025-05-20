@@ -13,6 +13,8 @@ body{
     background-color: #D8E1E9;
     background-image: url(bg1.jpg);
     background-size: cover;
+    height: 100vh;
+    overflow-y: hidden;
 }
 
 .container{
@@ -65,9 +67,9 @@ footer{
     /* background-color: #305376; */
     background-color: black;
     color: white;
-    position: fixed;
-    bottom: 0;
+    bottom: 0px;
     text-align: center;
+    position: sticky;
 }
 
 footer p{
